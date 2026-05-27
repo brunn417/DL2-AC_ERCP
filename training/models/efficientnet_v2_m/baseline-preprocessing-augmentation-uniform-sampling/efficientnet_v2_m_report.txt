@@ -1,0 +1,14 @@
+ERCP Validation Evaluation Report====================================Accuracy: 0.5655F1 Macro: 0.4571ROC AUC (multiclass): 0.8015ROC AUC (binary Normal vs Disease): 0.8798Per-class Accuracy:- Biliary_Leaks: 0.0588- Lithiasis: 0.6098- Stricture: 0.5238- Normal: 0.7209Classification Report:               precision    recall  f1-score   support
+
+Biliary_Leaks     0.1111    0.0588    0.0769        17
+    Lithiasis     0.6048    0.6098    0.6073       123
+    Stricture     0.6769    0.5238    0.5906        84
+       Normal     0.4493    0.7209    0.5536        43
+
+     accuracy                         0.5655       267
+    macro avg     0.4605    0.4783    0.4571       267
+ weighted avg     0.5710    0.5655    0.5596       267
+Confusion Matrix:[[ 1  4  0 12]
+ [ 3 75 20 25]
+ [ 4 35 44  1]
+ [ 1 10  1 31]]
